@@ -68,7 +68,7 @@ endmodule
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/1510e030-4ddc-42b1-88ce-d00f6f0dc7e6)
 
 # PROGRAM:
-`
+```
 module jkff(j,k,q,clk,reset);
 input j,k,clk,reset;
 output reg q;
@@ -87,7 +87,7 @@ endcase
 end
 end
 endmodule
-`
+```
 
 # OUTPUT:
 ![Screenshot 2024-05-17 113709](https://github.com/reshmasundar18/VLSI-LAB-EXP-4/assets/166894571/dfaf261a-af42-459e-a8e1-6a2551db264b)
@@ -100,7 +100,7 @@ endmodule
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/7a020379-efb1-4104-85ee-439d660baa08)
 
 # PROGRAM:
-`
+```
 module tff(clk,rst,t,q);
 input clk,rst,t;
 output reg q;
@@ -114,7 +114,7 @@ else
 q=~q;
 end
 endmodule
-`
+```
 
 # OUTPUT:
 ![Screenshot 2024-05-17 113828](https://github.com/reshmasundar18/VLSI-LAB-EXP-4/assets/166894571/6aeb568a-2ebf-4660-a5b6-5724f8785f04)
@@ -127,7 +127,7 @@ endmodule
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/dda843c5-f0a0-4b51-93a2-eaa4b7fa8aa0)
 
 # PROGRAM:
-`
+```
 module dff(clk,reset,d,q);
 input clk,d,reset;
 output reg q;
@@ -139,7 +139,7 @@ else
 q<=d;
 end
 endmodule
-`
+```
 
 # OUTPUT:
 ![Screenshot 2024-05-17 113957](https://github.com/reshmasundar18/VLSI-LAB-EXP-4/assets/166894571/4a2d55f5-b14f-4bc4-9d6c-76096c92271a)
@@ -150,7 +150,7 @@ endmodule
 ![Screenshot 2024-05-17 114108](https://github.com/reshmasundar18/VLSI-LAB-EXP-4/assets/166894571/7c4a843d-5a1e-4e3d-80c1-628402860495)
 
 # PROGRAM:
-`
+```
 module mod_10(clk,rst,out); 
 input clk,rst;
 output reg[3:0]out; 
@@ -161,7 +161,7 @@ else
 out=out+1;
 end
 endmodule
-`
+```
 
 # OUTPUT:
 ![Screenshot 2024-05-17 115226](https://github.com/reshmasundar18/VLSI-LAB-EXP-4/assets/166894571/0c594e66-b8c9-4592-88b5-6e37e5766cd6)
@@ -172,7 +172,7 @@ endmodule
 ![Screenshot 2024-05-17 115340](https://github.com/reshmasundar18/VLSI-LAB-EXP-4/assets/166894571/a48b4417-75a7-4257-994d-544ac3aa1e7d)
 
 # PROGRAM:
-`
+```
 module updowncounter(clk,rst,out);
 input clk,rst;
 output reg [3:0]out;
@@ -184,7 +184,7 @@ else
 out=out+1;
 end
 endmodule
-`
+```
 
 # OUTPUT:
 ![Screenshot 2024-05-17 120242](https://github.com/reshmasundar18/VLSI-LAB-EXP-4/assets/166894571/917b065a-4151-4f2c-93bb-df04d1a157d7)
@@ -195,7 +195,7 @@ endmodule
 ![Screenshot 2024-05-17 122350](https://github.com/reshmasundar18/VLSI-LAB-EXP-4/assets/166894571/94a6a4cc-5e4f-48fb-ae40-35e75639c2de)
 
 # PROGRAM:
-`
+```
 module ripple_carry_counter(q, clk, reset);
 output [3:0] q;
 input clk, reset;
@@ -223,7 +223,7 @@ q = 1'b0;
 else
 q = d;
 endmodule
-`
+```
 
 # OUTPUT:
 ![Screenshot 2024-05-17 122840](https://github.com/reshmasundar18/VLSI-LAB-EXP-4/assets/166894571/99f56f4e-8a5a-4e54-a85a-247bee819a15)
