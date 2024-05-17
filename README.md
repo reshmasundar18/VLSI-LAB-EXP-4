@@ -36,8 +36,7 @@ STEP:11 On the board, by giving required input, the LEDs starts to glow light, i
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/77fb7f38-5649-4778-a987-8468df9ea3c3)
 
 # PROGRAM:
-`
-`
+```
 srff(s,r,q,clk,reset);
 input s,r,clk,reset;
 output reg q;
@@ -56,8 +55,7 @@ endcase
 end
 end
 endmodule
-`
-`
+```
 
 # OUTPUT:
 ![Screenshot 2024-05-17 113506](https://github.com/reshmasundar18/VLSI-LAB-EXP-4/assets/166894571/f9038acb-9680-4197-bd4d-828473004032)
